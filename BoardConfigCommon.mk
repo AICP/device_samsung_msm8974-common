@@ -81,6 +81,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Charging Mode Override.
 BOARD_CHARGING_MODE_BOOTING_LPM := 
 
+# CMHW
+BOARD_HARDWARE_CLASS += device/samsung/msm8974-common/cmhw
+
 # Audio
 BOARD_HAVE_SAMSUNG_AUDIO := true
 BOARD_USES_ALSA_AUDIO := true
